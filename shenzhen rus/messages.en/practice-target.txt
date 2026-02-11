@@ -1,0 +1,48 @@
+Subject: Практика наводки
+From: Enzo Capretti <e.capretti@avalon.avalon>
+CC: S. Pham <s.c.pham@elec.avalon>
+
+Мысли?
+
+-
+
+Begin forwarded message:
+
+From: Enzo Capretti <e.capretti@avalon.avalon>
+To: Security <security@avalon.avalon>
+
+Как обстоят дела с новым оборудованием?
+
+-
+
+From: Security <security@avalon.avalon>
+To: Enzo Capretti <e.capretti@avalon.avalon>
+
+Устройства нелетального действия работают, но стреляют они не так, как обычное оружие. В частности, траектории немного отличаются, и у большинства сотрудников службы безопасности здесь не было возможности привыкнуть к ним. Если бы у нас было стрельбище, где мы могли бы практиковаться, я думаю, мы бы чувствовали себя намного увереннее в их использовании.
+
+-
+
+From: Enzo Capretti <e.capretti@avalon.avalon>
+To: Security <security@avalon.avalon>
+
+По словам Лизы, в ее отделе есть инженер-электрик, который мог бы с этим справиться. Я передам это вам.
+
+----------- (Completion)
+
+From: Enzo Capretti <e.capretti@avalon.avalon>
+
+Begin forwarded message:
+
+-
+
+From: Enzo Capretti <e.capretti@avalon.avalon>
+To: Security <security@avalon.avalon>
+
+Работают ли сейчас тренировочные полигоны?
+
+-
+
+From: Security <security@avalon.avalon>
+To: Enzo Capretti <e.capretti@avalon.avalon>
+
+Да, они отлично работают, и мы уже наблюдаем повышение точности. Скоро мы представим вам цифры. Спасибо, что разобрались с этим.

@@ -1,0 +1,29 @@
+Subject: Интерфейс
+From: Kamran Farzan <k.farzan@neuro.avalon>
+CC: N. Pinsker <n.pinsker@elec.avalon>, J. Thiele <j.thiele@elec.avalon>
+
+Давайте создадим пользовательскую доску для текущего дизайна.
+
+----------- 
+
+From: Lisa Suemura <l.suemura@bio.avalon>
+
+Ты хотя бы представился, Кямран?
+
+----------- 
+
+From: Lisa Suemura <l.suemura@bio.avalon>
+
+Я думаю, кто-то слишком занят, чтобы представляться! Камран руководит разработкой низкоуровневого интерфейса мозг-компьютер. Это часть проекта NETHUNS!
+
+----------- (Completion)
+
+From: Enzo Capretti <e.capretti@avalon.avalon>
+
+Дает ли это вам то, что вам нужно?
+
+-----------
+
+From: Kamran Farzan <k.farzan@neuro.avalon>
+
+На данный момент - да.
