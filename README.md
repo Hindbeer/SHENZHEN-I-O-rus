@@ -1,6 +1,10 @@
-# SHENZHEN-I-O-rus
+<div align="center">
+  <img src="head.png" alt="head img" width=420>
+  
+  # SHENZHEN-I-O-rus
 
-перевод на русский язык для SHENZHEN I/O
+  **перевод на русский язык для SHENZHEN I/**
+</div> 
 
 ### Что готово: 
 - ✅ Перевод сообщений
