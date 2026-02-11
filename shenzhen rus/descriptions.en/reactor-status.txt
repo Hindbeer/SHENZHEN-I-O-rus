@@ -1,13 +1,13 @@
-* *error* is an XBus input indicating the current reactor error, if any.
-* *power* is a simple input indicating the current power output of the generator.
-* *temp* is a simple input indicating the current temperature of the reactor's core.
-* *control* is a simple input indicating the current state of the reactor's control rods.
-* *display* is an XBus display output corresponding to a LX900C custom LCD.
-* Continuously update the *display* to show the current status of the reactor.
+* *error* — вход XBus, указывающий текущую ошибку реактора, если таковая имеется.
+* *power* — простой вход, указывающий текущую выходную мощность генератора.
+* *temp* — простой вход, указывающий текущую температуру активной зоны реактора.
+* *control* — простой вход, указывающий текущее состояние регулирующих стержней реактора.
+* *display* — выход XBus, соответствующий пользовательскому ЖК-дисплею LX900C.
+* Постоянно обновляйте *display*, чтобы отображать текущее состояние реактора.
 
 ##############
 
-* To turn on a *display* segment, send that segment's ID to the *display* over XBus. To turn off a *display* segment, send that segment's ID multiplied by -1. 
-* To turn off all *display* segments, send the value -999 to the *display* over XBus.
-* If reading from *error* provides a value, send that value to the *display* unchanged to turn the corresponding *error* indicator on (positive) or off (negative).
-* Look in the �Supplemental Data� section of the manual to find the CUSTOM LCD SPECIFICATIONS for the *display*, in addition to specific instructions for how to display the different pieces of status information.
+* Чтобы включить сегмент *display*, отправьте идентификатор этого сегмента в *display* через XBus. Чтобы выключить сегмент *display*, отправьте идентификатор этого сегмента, умноженный на -1. 
+* Чтобы выключить все сегменты *display*, отправьте значение -999 в *display* через XBus.
+* Если при чтении из *error* получено значение, отправьте это значение на *дисплей* без изменений, чтобы включить (положительное значение) или выключить (отрицательное значение) соответствующий индикатор *error*.
+* В разделе «Дополнительные данные» руководства найдите ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ ПЕРСОНАЛИЗИРОВАННОГО ЖК-ДИСПЛЕЯ для *дисплея*, а также конкретные инструкции по отображению различных сведений о состоянии.

@@ -1,8 +1,8 @@
-* *in-1*, *in-5*, and *in-12* are simple inputs connected to a mechanism that accepts and detects 1 銖, 5 銖, and 12 銖 tokens.
-* *bell* is a simple output connected to a solenoid that rings a small bell when triggered.
-* *out-1* and *out-5* are simple outputs connected to a mechanism that dispenses 1 銖 and 5 銖 tokens as change.
-* After a sufficient number of coins have been inserted, the payment kiosk should ring the *bell* and dispense change as indicated in the verification tab.
+* *in-1*, *in-5* и *in-12* — простые входы, подключенные к механизму, который принимает и распознает жетоны номиналом 1, 5 и 12 юаней.
+* *bell* — простой выход, подключенный к соленоиду, который при срабатывании заставляет звенеть небольшой колокольчик.
+* *out-1* и *out-5* — простые выходы, подключенные к механизму, который выдаёт монеты номиналом 1 銖 и 5 銖 в качестве сдачи.
+* После введения достаточного количества монет платежный киоск должен зазвонить *bell* и выдать сдачу, как указано на вкладке «Проверка».
 
 ##############
 
-* The cost of the item is set by the operator using a dial that can be read as an XBus input.
+* Стоимость товара устанавливается оператором с помощью циферблата, который можно считать как вход XBus.

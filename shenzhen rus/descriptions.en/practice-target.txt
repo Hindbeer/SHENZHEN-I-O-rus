@@ -1,13 +1,13 @@
-* *detect* is a simple input that detects when a trainee has fired their weapon.
-* *target-x* and *target-y* are simple inputs that detect where the target has been hit.
-* *score-1* and *score-2* are XBus outputs connected to large numeric displays.
+* *detect* — простой вход, который определяет, когда стажер выстрелил из оружия.
+* *target-x* и *target-y* — простые входы, которые определяют, где была поражена цель.
+* *score-1* и *score-2* — выходы XBus, подключенные к большим цифровым дисплеям.
 
-* Two trainees each take 4 shots and score points depending on where they hit the target. To determine the point value of a shot, find the Euclidean distance (using the Pythagorean theorem) between the hit location and the center of the target, located at (50, 50):
+* Два курсанта делают по 4 выстрела и набирают очки в зависимости от того, куда они попали в мишень. Чтобы определить количество очков за выстрел, найдите евклидово расстояние (используя теорему Пифагора) между местом попадания и центром мишени, расположенным в точке (50, 50):
 
 ##############
 
-| distance < 10 | 4 points | 20 <= distance < 30 | 1 point
+| дистанция < 10 | 4 очка | 20 <= дистанция < 30 | 1 очко
 -------------------------------------------------------
-| 10 <= distance < 20 | 2 points | distance >= 30 | -2 points
+| 10 <= дистанция < 20 | 2 очка | дистанция >= 30 | -2 очка
 
-* The numeric displays should be updated with the trainee's scores as they compete, and should flash 3 times at the end before turning off to indicate that the game is over.
+* Цифровые дисплеи должны обновляться с учетом результатов участников по мере их соревнования и должны мигать 3 раза в конце, прежде чем выключиться, чтобы показать, что игра закончилась.

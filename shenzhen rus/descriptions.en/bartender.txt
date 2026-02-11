@@ -1,6 +1,6 @@
-* *keypad* is an XBus input connected to a keypad.
-* *vodka*, *gin*, *lemon*, *lime*, *cranberry*, and *vermouth* are simple outputs connected to mechanisms that dispense those ingredients at a rate of 0.5 oz. per time unit.
-* When a value is available from the *keypad*, read it and assemble the corresponding COCKTAIL RECIPE from “The Elegant Bachelor,” which can be found in the “Supplemental Data” section of the manual:
+* *keypad* — это вход XBus, подключенный к клавиатуре.
+* *vodka*, *gin*, *lemon*, *lime*, *cranberry*, и *vermouth* — это простые выходы, подключенные к механизмам, которые дозируют эти ингредиенты со скоростью 0,5 унции в единицу времени.
+* Когда значение становится доступным с *keypad*, прочитайте его и соберите соответствующий РЕЦЕПТ КОКТЕЙЛЯ из раздела «Элегантный холостяк»(The Elegant Bachelor), который можно найти в разделе «Дополнительные данные» руководства:
 
 ##############
 

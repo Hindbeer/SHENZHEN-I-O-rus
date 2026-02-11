@@ -1,15 +1,15 @@
-* *meter-in* and *meter-out* are XBus inputs and outputs that connect this node to a building’s “smart grid” power meter.
-* *lower-in* and *lower-out* are XBus inputs and outputs that connect this node to a node with a lower ID number.
-* *higher-in* and *higher-out* are XBus inputs and outputs that connect this node to a node with a higher ID number.
-* The first value in a data packet is the ID number of the destination, and indicates how the packet should be handled:
+* *meter-in* и *meter-out* — это входы и выходы XBus, которые соединяют этот узел с электросчетчиком «интеллектуальной сети» здания.
+* *lower-in* и *lower-out* — это входы и выходы XBus, которые соединяют этот узел с узлом с более низким идентификационным номером.
+* *higher-in* и *higher-out* — это входы и выходы XBus, которые соединяют этот узел с узлом с более высоким идентификационным номером.
+* Первое значение в пакете данных — это идентификационный номер пункта назначения, который указывает, как следует обрабатывать пакет:
 
 ##############
 
-|   ID < meter ID   | retransmit data packet to the lower node
+|   ID < meter ID   | пересылать пакет данных на узел с более низким номером
 ---------------------------------------------------------------
-|   ID = meter ID   | retransmit data packet to the meter
+|   ID = meter ID   | пересылать пакет данных на счетчик
 ---------------------------------------------------------------
-|   ID > meter ID   | retransmit data packet to the higher node
+|   ID > meter ID   | пересылать пакет данных на узел с более высоким номером
 
-* The local ID number of the node is stored in a secure identity chip that can be read as an XBus input.
-* The second value in a data packet is the length of the rest of the data packet.
+* Локальный идентификационный номер узла хранится в защищенном идентификационном чипе, который можно считать как вход XBus.
+* Второе значение в пакете данных — это длина остальной части пакета данных.

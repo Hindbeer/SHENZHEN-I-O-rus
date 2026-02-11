@@ -1,12 +1,12 @@
-* *keypad* is an XBus input connected to a keypad.
-* *bread*, *meat*, *cheese*, and *mustard* are simple outputs connected to mechanisms that dispense those ingredients.
-* *flag* is a simple output connected to a motor that raises and lowers a small American flag when a sandwich is complete.
-* When a value is available from the *keypad*, read it and dispense a sandwich using the information in the following table and the verification tab:
+* *keypad* — это вход XBus, подключенный к клавиатуре.
+* *bread*, *meat*, *cheese* и *mustard* — это простые выходы, подключенные к механизмам, которые выдают эти ингредиенты.
+* *flag* — это простой выход, подключенный к мотору, который поднимает и опускает маленький американский флаг, когда сэндвич готов.
+* Когда значение доступно с *клавиатуры*, прочитайте его и выдайте сэндвич, используя информацию в следующей таблице и вкладке проверки:
 
 ##############
 
-|  1  | SANDWICH TIME!  | dispense a sandwich with *meat*, *cheese*, and *mustard*
+|  1  | SANDWICH TIME!  | раздавать сэндвич с *мясом*, *сыром* и *горчицей*
 -------------------------------------------------------------
-|  2  | HOLD THE CHEESE | dispense a sandwich but don’t add *cheese*
+|  2  | HOLD THE CHEESE | выдайте сэндвич, но не добавляйте *сыр*
 -------------------------------------------------------------
-|  3  | EXTRA MUSTARD   | dispense a sandwich with extra *mustard*
+|  3  | EXTRA MUSTARD   | добавить в сэндвич дополнительную *горчицу*

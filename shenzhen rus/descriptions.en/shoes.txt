@@ -1,10 +1,10 @@
-* *button* is a simple input connected to a button.
-* *sensor* is a simple input connected to a color sensor.
-* *ink-k* and *ink-n* are simple outputs connected to pieces of fabric coated with color-changing electrochemical dye.
-* While the *button* is held, values from the color *sensor* should be read and bucketed according to the COLOUR CLASSIFICATION CHART.
+* *button* — простой вход, подключенный к кнопке.
+* *sensor* — простой вход, подключенный к датчику цвета.
+* *ink-k* и *ink-n* — простые выходы, подключенные к кусочкам ткани, покрытым электрохимическим красителем, меняющим цвет.
+* Пока удерживается *button*, значения с *sensor* должны считываться и группироваться в соответствии с ТАБЛИЦЕЙ КЛАССИФИКАЦИИ ЦВЕТОВ.
 
 ##############
 
-* When the *button* is released, *ink-k* and *ink-n* should be set to the values corresponding to the color that most frequently occurred during the calibration period as indicated in the SMART DYE COLOR SPACE. (There will never be a tie).
-* Prior to calibration, *ink-k* and *ink-n* should each be initialized to a value of 50, corresponding to a neutral color.
-* Look in the “Supplemental Data” section of the manual to find the WAVELENGTH-BASED COLOUR CLASSIFICATION chart and the INK SMARTDYE COLOUR SPACE.
+* При отпускании *button* значения *ink-k* и *ink-n* должны быть установлены в соответствии с цветом, который чаще всего встречался в период калибровки, как указано в SMART DYE COLOR SPACE. (Никогда не будет равенства).
+* Перед калибровкой *ink-k* и *ink-n* должны быть инициализированы со значением 50, соответствующим нейтральному цвету.
+* В разделе «Дополнительные данные» руководства найдите таблицу КЛАССИФИКАЦИИ ЦВЕТОВ ПО ДЛИНЕ ВОЛНЫ и ЦВЕТОВОЕ ПРОСТРАНСТВО INK SMARTDYE.

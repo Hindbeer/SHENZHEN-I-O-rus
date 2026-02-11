@@ -1,5 +1,5 @@
-* *audio-in* is a simple input connected to an audio source.
-* *audio-out* is a simple output connected to an audio receiver.
-* *maximize* is a simple input connected to a switch.
-* The signal from *audio-in* should be copied to *audio-out*, applying the HARMONIC MAXIMIZATION ALGORITHM when the *maximize* switch is on.
-* Look in the “Supplemental Data” section of the manual to find an advertisement featuring the HARMONIC MAXIMIZATION ALGORITHM.
+* *audio-in* это простой вход, подключенный к источнику звука.
+* *audio-out* это простой выход, подключенный к аудиоприемнику.
+* *maximize* это простой вход, подключенный к переключателю.
+* Сигнал из *audio-in* должен быть скопирован в *audio-out*, применяя алгоритм МАКСИМИЗАЦИИ ГАРМОНИК, когда включен переключатель *maximize*.
+* В разделе «Дополнительные данные» (Supplemental Data) руководства пользователя вы найдете информацию про алгоритм гармонической максимизации..

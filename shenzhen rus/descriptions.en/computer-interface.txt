@@ -1,4 +1,4 @@
-﻿* *sense-0* through *sense-5* are simple inputs connected to neuroactivity sensors.
-* *output* is an XBus output connected to a computer for analysis.
-* When pulses occur on two or more *sense* channels within a window of 2 time slices, report the *sense* indices over *output*, in increasing order.
-* Do not report the same pulse more than once.
+﻿* *sense-0* до *sense-5* — это простые входы, подключенные к датчикам нейроактивности.
+* *output* — это выход XBus, подключенный к компьютеру для анализа.
+* Когда импульсы возникают на двух или более каналах *sense* в окне из 2 временных интервалов, сообщайте индексы *sense* через *output* в порядке возрастания.
+* Не сообщайте один и тот же импульс более одного раза.

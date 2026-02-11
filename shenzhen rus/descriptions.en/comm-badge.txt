@@ -1,11 +1,11 @@
-* *radar-sync* is a simple input indicating the current heading of the central tracking radar.
-* *radar-ping* is a simple input indicating the current distance from the central tracking radar if it is currently pointing in the user’s direction.
-* *radio-rx* is a non-blocking XBus input connected to a radio receiver.
-* *radio-tx* is an XBus output connected to a radio transmitter.
-* *speaker* is a simple output connected to a miniature, self-amplified audio speaker.
+* *radar-sync* — простой вход, указывающий текущий курс центрального следящего радара.
+* *radar-ping* — простой вход, указывающий текущее расстояние от центрального следящего радара, если он в данный момент направлен в сторону пользователя.
+* *radio-rx* — неблокируемый вход XBus, подключенный к радиоприемнику.
+* *radio-tx* — выход XBus, подключенный к радиопередатчику.
+* *speaker* — простой выход, подключенный к миниатюрному аудиодинамику с собственным усилителем.
 
 ##############
 
-* When a data packet is received and begins with a value of 1, the subsequent data should be treated as length-prefixed audio data and played over the *speaker*.
-* When a data packet is received that begins with a value of 2 and specifies the ID of the badge, the badge should respond with its current sector.
-* The user’s location can be determined when a *radar-ping* pulse is detected by correlating the current heading and distance from the central tracking radar with the SECTOR MAP, which can be found as “Figure 7G” in the “Supplemental Data” section of the manual.
+* Когда принимается пакет данных, начинающийся со значения 1, последующие данные должны рассматриваться как аудиоданные с префиксом длины и воспроизводиться через *speaker*.
+* Когда принимается пакет данных, начинающийся со значения 2 и указывающий идентификатор бейджа, бейдж должен ответить своим текущим сектором.
+* Местоположение пользователя можно определить при обнаружении импульса *radar-ping*, сопоставив текущий курс и расстояние от центрального следящего радара с КАРТОЙ СЕКТОРА, которая находится в разделе «Дополнительные данные» руководства под названием «Рисунок 7G».

@@ -1,10 +1,10 @@
-* *weight* is a simple input connected to an electromechanical scale calibrated for grams.
-* *button* is a simple input connected to a power / zero button.
-* *display* is an XBus display output corresponding to a numeric LCD screen.
-* The scale is initially "off", but can be "turned on" by pressing the *button*.
-* While the scale is "on", the *display* should be updated with the measured *weight*.
+* *weight* — простой вход, подключенный к электромеханическим весам, откалиброванным в граммах.
+* *button* — простой вход, подключенный к кнопке питания/обнуления.
+* *display* — выход XBus, соответствующий цифровому ЖК-экрану.
+* Весы изначально «выключены», но их можно «включить», нажав на *button*.
+* Когда весы «включены», *display* должен обновляться с измеренным *weight*.
 
 ##############
 
-* If the *display* is showing a value other than 0 when the *button* is pushed, the scale should zero itself so that the current displayed *weight* is 0.
-* If the *display* is showing a value of 0 when the *button* is pushed, the scale should "turn off" and clear the *display* by sending it the value -999.
+* Если при нажатии *кнопки* *дисплей* показывает значение, отличное от 0, весы должны обнулиться, чтобы текущий отображаемый *вес* был равен 0.
+* Если при нажатии *кнопки* *дисплей* показывает значение 0, весы должны «выключиться» и очистить *дисплей*, отправив ему значение -999.

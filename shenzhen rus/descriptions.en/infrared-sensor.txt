@@ -1,10 +1,10 @@
-* *time* is a simple input connected to a DT2415 clock providing the current time.
-* *sensor* is a simple input connected to an infrared sensor.
-* *alarm* is a simple output connected to a silent alarm.
-* When the current *time* equals the on time, the device should be _armed_.
-* When the current *time* equals the off time, the device should be _disarmed_.
-* Whenever the device is _armed_ and the *sensor* reads at or above a value of 20, the *alarm* output should be active.
+* *time* — простой вход, подключенный к часам DT2415, обеспечивающим текущее время.
+* *sensor* — простой вход, подключенный к инфракрасному датчику.
+* *alarm* — простой выход, подключенный к бесшумной сигнализации.
+* Когда текущее *time* равно времени включения, устройство должно быть _armed_.
+* Когда текущее *time* равно времени выключения, устройство должно быть _disarmed_.
+* Всякий раз, когда устройство находится в состоянии _armed_ и *датчик* показывает значение 20 или выше, выход *сигнализация* должен быть активен.
 
 ################
 
-* The on and off times are set by the operator using dials that can be read as XBus inputs and use numerical values compatible with the DT2415.
+* Время включения и выключения устанавливается оператором с помощью циферблатов, которые могут считываться как входы XBus и использовать числовые значения, совместимые с DT2415.

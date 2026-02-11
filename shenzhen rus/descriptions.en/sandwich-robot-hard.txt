@@ -1,14 +1,14 @@
-* *keypad* is an XBus input connected to a keypad.
-* *bread*, *meat*, *cheese*, and *mustard* are simple outputs connected to mechanisms that dispense those ingredients.
-* *flag* is a simple output connected to a motor that raises and lowers a small American flag when a sandwich is complete.
-* When a value is available from the *keypad*, read it and execute the corresponding command in the following table:
+* *keypad* — это вход XBus, подключенный к клавиатуре.
+* *bread*, *meat*, *cheese* и *mustard* — это простые выходы, подключенные к механизмам, которые выдают эти ингредиенты.
+* *flag* — это простой выход, подключенный к мотору, который поднимает и опускает маленький американский флаг, когда сэндвич готов.
+* Когда значение доступно с *клавиатуры*, прочитайте его и выполните соответствующую команду из следующей таблицы:
 
 ##############
 
-| -1  | CANCEL          | cancel order and reset all internal state
+| -1  | CANCEL          | отменить заказ и сбросить все внутренние настройки
 -------------------------------------------------------------
-|  1  | HOLD THE CHEESE | don’t add *cheese* when constructing sandwich
+|  1  | HOLD THE CHEESE | не добавляйте *сыр* при приготовлении сэндвича
 -------------------------------------------------------------
-|  2  | EXTRA MUSTARD   | add extra *mustard* when constructing sandwich
+|  2  | EXTRA MUSTARD   | добавьте дополнительную *горчицу* при приготовлении сэндвича
 -------------------------------------------------------------
-|  3  | SANDWICH TIME!  | construct sandwich according to verification tab
+|  3  | SANDWICH TIME!  | составить сэндвич в соответствии с вкладкой проверки

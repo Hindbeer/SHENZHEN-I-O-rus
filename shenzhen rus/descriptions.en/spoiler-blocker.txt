@@ -1,9 +1,9 @@
-* *audio-in* is a simple input connected to an omnidirectional microphone.
-* *audio-out* is a simple output connected to a pair of headphones.
-* *keywords* is a non-blocking XBus input connected to a natural language processing device that detects spoken words in an audio stream.
-* *override* is a simple input connected to a button.
+* *audio-in* — простой вход, подключенный к всенаправленному микрофону.
+* *audio-out* — простой выход, подключенный к наушникам.
+* *keywords* — неблокирующий вход XBus, подключенный к устройству обработки естественного языка, которое распознает произнесенные слова в аудиопотоке.
+* *override* — простой вход, подключенный к кнопке.
 
 ##############
 
-* The signal from *audio-in* should be copied to *audio-out* until a keyword from the SPOILER-RELATED KEYWORDS list for acclaimed television series GET THE THRONE is detected, after which *audio-out* should be locked to a value of 50 until the *override* button is pushed.
-* Look in the “Supplemental Data” section of the manual to find David and Xiaomei’s SPOILER-RELATED KEYWORDS for various television shows.
+* Сигнал от *audio-in* должен копироваться в *audio-out* до тех пор, пока не будет обнаружено ключевое слово из списка SPOILER-RELATED KEYWORDS для популярного телесериала GET THE THRONE, после чего *audio-out* должен быть зафиксирован на значении 50 до тех пор, пока не будет нажата кнопка *override*.
+* В разделе «Дополнительные данные» руководства вы найдете ключевые слова Дэвида и Сяомей, связанные со спойлерами, для различных телевизионных шоу.

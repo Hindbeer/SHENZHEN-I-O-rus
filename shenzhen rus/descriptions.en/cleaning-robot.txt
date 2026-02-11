@@ -1,13 +1,13 @@
-* *radio-rx* is a non-blocking XBus input connected to a radio receiver.
-* *motor* is a simple output connected to a bidirectional motor.
-* *tool-clean* and *tool-feed* are simple outputs connected to unknown tools.
+* *radio-rx* — это неблокируемый вход XBus, подключенный к радиоприемнику.
+* *motor* — это простой выход, подключенный к двунаправленному двигателю.
+* *tool-clean* и *tool-feed* — это простые выходы, подключенные к неизвестным инструментам.
 * The maintenance robot begins in station 0.
-* Pulsing *motor* to 100 and back to 50 will move it to the next station.
-* Pulsing *motor* to 0 and back to 50 will move it to the previous station.
+* Пульсирующий *motor* на 100 и обратно до 50 переместит его на следующую станцию.
+* Переключение *motor* на 0 и обратно на 50 приведет к перемещению его на предыдущую позицию.
 
 #################
 
-* When a data packet is received over the *radio*, move to the destination station and activate the tools for the specified durations:
+* Когда пакет данных будет получен по *radio-rx*, перейдите на станцию назначения и активируйте инструменты на указанное время:
 
 |    destination   |     *tool-clean*     |     *tool-feed*
 |      station     |   activation time    |   activation time

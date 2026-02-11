@@ -1,11 +1,11 @@
-* *radio-rx* is a non-blocking XBus input connected to a radio receiver.
-* *fish* is an XBus output connected to a food-grade pick and place machine.
-* *rice* is a simple output connected to a food-grade extruder.
-* *gate-a*, *gate-b*, and *gate-c* are simple outputs connected to actuators capable of pushing a small plate of food from one conveyor belt to another conveyor belt.
-* When an order arrives over the *radio*, assemble the specified nigiri sushi and deliver it to the table that ordered it:
+* *radio-rx* — неблокируемый вход XBus, подключенный к радиоприемнику.
+* *fish* — выход XBus, подключенный к пищевому подъемнику.
+* *rice* — простой выход, подключенный к пищевому экструдеру.
+* *gate-a*, *gate-b* и *gate-c* — простые выходы, подключенные к приводам, способным перемещать небольшую тарелку с едой с одного конвейера на другой.
+* Когда заказ поступает по *радио*, соберите указанное нигири-суши и доставьте его к столу, который его заказал:
 
 ##############
 
-| sushi type | destination table
-* Orders will arrive faster than the sushi can be assembled and delivered, so it will be necessary to enqueue the orders as they arrive and pipeline the assembly and delivery as indicated in the verification tab.
-* Look in the �Supplemental Data� section of the manual to find the SUSHI BAR FLOOR PLAN detailing the layout of the sushi bar and its conveyor belts.
+| Тип суши | Стол назначения
+* Заказы будут поступать быстрее, чем можно собрать и доставить суши, поэтому необходимо будет ставить заказы в очередь по мере их поступления и организовать сборку и доставку, как указано на вкладке «Проверка».
+* В разделе «Дополнительные данные» руководства найдите ПЛАН ПОЛОЖЕНИЯ СУШИ-БАРА с подробным описанием расположения суши-бара и его конвейерных лент.

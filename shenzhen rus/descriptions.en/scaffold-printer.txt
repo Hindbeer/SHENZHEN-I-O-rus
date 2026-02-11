@@ -1,12 +1,12 @@
-﻿* *data* is an XBus input connected to a computer.
-* *motor-x* and *motor-y* are simple outputs connected to precision motors.
-* *valve-α*, *valve-β*, and *valve-ψ* are simple outputs connected to a fluid print head.
-* There are two types of *data* packets that may be received: a 6-value packet that describes a 6x6 structure to print, or a 1-value packet containing only a -1 that instructs the printer to reset the print head position.
-* A "reset" packet will never arrive while a print job is in progress.
+﻿* *data* — это вход XBus, подключенный к компьютеру.
+* *motor-x* и *motor-y* — это простые выходы, подключенные к прецизионным двигателям.
+* *valve-α*, *valve-β* и *valve-ψ* — это простые выходы, подключенные к жидкостной печатающей головке.
+* Существует два типа пакетов *data*, которые могут быть получены: пакет с 6 значениями, описывающий структуру 6x6 для печати, или пакет с 1 значением, содержащий только -1, который дает принтеру команду сбросить положение печатающей головки.
+* Пакет «reset» никогда не поступает во время выполнения задания на печать.
 
 ##############
 
-* Control *motor-x* to move the print head right (100) and left (0).
-* Control *motor-y* to move the print head up (100) and down (0).
-* Control *valve-α*, *valve-β*, and *valve-ψ* to extrude the different scaffold materials.
-* Look in the “Supplemental Data” section of the manual to find a document from Lisa explaining CELLULAR SCAFFOLD PATTERNS.
+* Управляйте *motor-x*, чтобы перемещать печатающую головку вправо (100) и влево (0).
+* Управляйте *motor-y*, чтобы перемещать печатающую головку вверх (100) и вниз (0).
+* Управляйте *valve-α*, *valve-β* и *valve-ψ*, чтобы выдавливать различные материалы каркаса.
+* В разделе «Дополнительные данные» руководства найдите документ от Лизы с объяснением СТРУКТУР КЛЕТОЧНЫХ СКЕЛЬЕТОВ.
